@@ -77,22 +77,22 @@ module.exports = [
     name: 'luci-app-ttyd',
     desc: 'ttyd 终端',
   },
-  // {
-  //   name: 'luci-app-unblockneteasemusic',
-  //   desc: '解锁网易云音乐 (无界面)',
-  // },
+  {
+    name: 'luci-app-unblockneteasemusic',
+    desc: '解锁网易云音乐 (无界面)',
+  },
   // {
   //   name: 'luci-app-syncdial',
   //   desc: '多拨虚拟网卡（需要光猫支持多拨）',
   // },
-  // {
-  //   name: 'luci-app-passwall',
-  //   desc: 'passwall代理软件',
-  // },
-  // {
-  //   name: 'luci-app-ssr-plus',
-  //   desc: 'ssr-plus 代理软件',
-  // },
+  {
+   name: 'luci-app-passwall',
+   desc: 'passwall代理软件',
+  },
+  {
+     name: 'luci-app-ssr-plus',
+     desc: 'ssr-plus 代理软件',
+  },
   // {
   //   name: 'luci-app-aliddns',
   //   desc: '阿里云ddns插件',
