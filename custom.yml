@@ -14,6 +14,7 @@ feeds:
 packages:
   - luci-theme-argon
   - luci-app-argon-config
+  - luci-app-store
   - luci-app-ramfree
   - luci-app-wol
   - luci-app-diskman
@@ -23,10 +24,16 @@ packages:
   - luci-app-zerotier
   - luci-app-turboacc
   - luci-app-xlnetacc
+  - luci-app-appfilter
   - luci-app-cpufreq
   - luci-app-ttyd
+  - luci-app-passwall
+  - luci-app-ssr-plus
   - luci-app-serverchan
   - luci-app-transmission
+  - luci-app-jd-dailybonus
+  - luci-app-frpc
+  - luci-app-frps
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
