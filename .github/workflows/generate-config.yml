@@ -11,9 +11,6 @@ on:
     branches:
       - main
 
-  schedule:
-    - cron: 0 16 * * *
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
